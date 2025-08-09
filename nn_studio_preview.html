@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NN Studio — Preview Estático</title>
+    <style>
+      body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:24px}
+      .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+      .tab{padding:10px 14px;border:1px solid #ddd;border-radius:10px}
+      .panel{border:1px solid #eee;padding:16px;border-radius:12px}
+      .muted{color:#666}
+      .btn{display:inline-block;padding:10px 14px;border-radius:8px;border:1px solid #ddd}
+      code{background:#f7f7f7;padding:2px 6px;border-radius:6px}
+    </style>
+  </head>
+  <body>
+    <h1>🧠 NN Studio — MLP para Excel/CSV</h1>
+    <p class="muted">Prévia estática da interface (sem Streamlit). Use o app real com <code>streamlit run app.py</code>.</p>
+    <div class="tabs">
+      <div class="tab">1️⃣ Dados</div>
+      <div class="tab">2️⃣ Configurar</div>
+      <div class="tab">3️⃣ Treinar</div>
+      <div class="tab">4️⃣ Avaliar & Exportar</div>
+      <div class="tab">5️⃣ Prever em novos dados</div>
+    </div>
+    <div class="panel">
+      <h3>Upload e pré-visualização</h3>
+      <p>Arraste seu <code>.xlsx</code>, <code>.xls</code> ou <code>.csv</code> aqui.</p>
+      <p><span class="btn">🚀 Treinar modelo agora</span> (desabilitado nesta prévia)</p>
+    </div>
+  </body>
+</html>
